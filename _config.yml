@@ -1,6 +1,7 @@
 # Author's infomation
 title: Chuan's Blog
 author: Chuan Qin
+github: https://github.com/chuanqin1230
 location: "Washington State University"
 about: I'm a power system researcher and a Python software programmer. 
 description: My personal stack problems and solutions
@@ -61,9 +62,12 @@ urls:
       url: /about/
     - text: My Projects
       url: /projects/
+      
 #Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-gist
+
 paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
