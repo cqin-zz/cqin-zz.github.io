@@ -7,7 +7,7 @@ description: My personal stack problems and solutions
 portfolio_image: "portfolio.JPG"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "chuanqin1230.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chuanqin1230.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 enableTags: true
