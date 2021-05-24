@@ -6,7 +6,7 @@ about: I'm a power system researcher and a Python software programmer.
 description: My personal stack problems and solutions
 portfolio_image: "portfolio.JPG"
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://chuanqin1230.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 
