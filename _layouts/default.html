@@ -115,9 +115,7 @@ layout: compress
 	  <!-- Social sidebar and navigations layout-->
       <div class="col-sm-3">
         <div class="fixed-condition">
-		  <a href="{{ "/" | relative_url}}">
-			<img src="{{ site.url }}/assets/img/{{ site.portfolio_image }}" alt="{{ site.author }}" property="og:image"/>
-		  </a>
+		  <img src="/assets/img/{{ site.portfolio_image }}" alt="{{ site.author }}" property="og:image"/>
           <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
           {% if site.location %}
             <i class="fa fa-map-marker" aria-hidden="true"></i> {{ site.location }}
