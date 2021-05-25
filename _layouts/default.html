@@ -7,7 +7,7 @@ layout: compress
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.author }}{% endif %}</title>
     <meta name="author" content="{{ site.author }}" />
     <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
@@ -112,10 +112,14 @@ layout: compress
   </head>
   <body>
     <div class="container">
+	  <!-- Social sidebar and navigations layout -->
       <div class="col-sm-3">
         <div class="fixed-condition">
-		  <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
-
+		  <img src="/assets/img/{{ site.portfolio_image }}" alt="{{ site.author }}" property="og:image"/>
+          <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
+          {% if site.location %}
+            <i class="fa fa-map-marker" aria-hidden="true"></i> {{ site.location }}
+          {% endif %}
 		  {% if site.about %}
             <div class="profile-about">
               {{ site.about }}
@@ -140,6 +144,12 @@ layout: compress
               <li><a class="about" href="{{ i.url }}">{{ i.text }}</a></li>
             {% endfor %}
           </ul>
+		  <!--  Add Live2D module -->
+		  <div>
+		    <canvas id="live2dcanvas" width="125" height="250"></canvas>
+	      </div>
+	      <script src="/assets/js/device.min.js"></script>
+	      <script src="/assets/js/live2dscript.js"></script> 
         </div>
         <!-- end /.fixed-condition -->
       </div>
