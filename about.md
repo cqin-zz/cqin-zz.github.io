@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# About Me
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Hi there! My name is Chuan Qin. I am a Electrical and Computer Engineering Ph.D. student at Washington State University. My research interests include data-driven computational analysis for power system operation and control algorithm, and phasor measurement-based power protection analysis.
 
 
-[jekyll-organization]: https://github.com/jekyll
+## Education
+
+* Ph.D. in Electrical and Computer Engineering, Washington State University, 2019-Present
+* B.S. in Electrical Engineering, Washington State University, 2014-2018
+
+## Skills
+
+* Python, MATLAB, R
+* C/C++
+* Power World, GridLAB-D, OpenDSS, PSS/E
