@@ -25,17 +25,15 @@ Some of the software I've been using a lot recently are:
 * RSCAD
 
 ## About Programming
-I'm also an amateur programmer. I like to do some front-end design and power system applet development in my spare time. <br>
-You can teach a machine to figure out the troubles that you dont want to do. Uhmmm.... Programming is fantastic! YAY! <br>
-The languages I often use include:
+I'm also an amateur programmer. I like to do some front-end design and power system applet development in my spare time. Talking to the machine and finding solutions to a unexpected problems are awesome! <br>
+The languages I am currently using include:
 * Python 
 * C/C++
 * MATLAB
 * HTML
-* Javascript 
 * R 
 
-The languages I want to learn include:
+And a wish list:
 * Java
+* Javascript 
 * Go
-* Swift
