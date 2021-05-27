@@ -2,14 +2,19 @@
 layout: compress
 ---
 <!DOCTYPE html>
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
-    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.author }}{% endif %}</title>
-    <meta name="author" content="{{ site.author }}" />
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ author.name }}{% endif %}</title>
+    <meta name="author" content="{{ author.name }}" />
     <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
@@ -115,10 +120,10 @@ layout: compress
 	  <!-- Social sidebar and navigations layout -->
       <div class="col-sm-3">
         <div class="fixed-condition">
-		  <img src="/assets/img/{{ site.portfolio_image }}" alt="{{ site.author }}" property="og:image"/>
-          <h1 class="author-name"><a href="/">{{ site.author }}</a></h1>
-          {% if site.location %}
-            <i class="fa fa-map-marker" aria-hidden="true"></i> {{ site.location }}
+		  <img src="/assets/img/{{ author.portfolio_image }}" alt="{{ author.name }}" property="og:image"/>
+          <h1 class="author-name"><a href="/">{{ author.name }}</a></h1>
+          {% if author.location %}
+            <i class="fa fa-map-marker" aria-hidden="true"></i> {{ author.location }}
           {% endif %}
 		  {% if site.about %}
             <div class="profile-about">
@@ -157,7 +162,7 @@ layout: compress
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer>
-          &copy; {{ site.author }}
+          &copy; {{ author.name }}
           {% if site.github %}
             - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Jekyll.
           {% endif %}
