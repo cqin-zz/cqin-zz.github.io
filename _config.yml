@@ -18,6 +18,9 @@ collections:
   project:
     output: true
     permalink: /project/:path/
+  publication:
+    output: true
+    permalink: /publication/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -64,7 +67,7 @@ urls:
       url: /publications/
     - text: My Projects
       url: /projects/
-      
+    
 #Plugins
 plugins:
   - jekyll-paginate
