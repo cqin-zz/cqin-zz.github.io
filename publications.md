@@ -10,6 +10,5 @@ permalink: /publications/
 
 
 {% for post in site.publication reversed %}
-  <li>{% include archive-single.html %}<br>
-  
+  {% include archive-single.html %}
 {% endfor %}
