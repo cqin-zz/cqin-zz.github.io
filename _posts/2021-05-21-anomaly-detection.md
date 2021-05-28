@@ -1,34 +1,37 @@
 ---
 useMath: true
 layout: post
-title:  "4 Common Methods for Anomaly Detections"
-date:   2021-05-21 19:35:31 -0700
-categories: jekyll update
+title:  "Four Common Methods for Anomaly Detections"
+date:   2021-05-27 07:20:17 -0700
+categories: anomaly_detection
 ---
-*1-min abstract*: 
-Anomaly, including errors, outliers, and noise can cause some troubles in the application of machine learning algorithms and statistical techniques. This article will introduce 4 common anomaly detection methods, which are *Numeric Outlier*, *Z-Score*, *DBSCAN*, and *Isolation Forest*.
- 
-## 
 
-$x_i > Q3 + k(IQR)$
+## 1 min abstract:
+Anomaly, including errors, outliers, and noise can cause some troubles in the application of machine learning algorithms and statistical techniques. This article will introduce Four common anomaly detection methods, which are *Numeric Outlier*, *Z-Score*, *DBSCAN*, and *Isolation Forest*.
+
+---
 
 
-`YEAR-MONTH-DAY-title.MARKUP`
+## Numeric Outlier
+Numeric Outlier is a simple and nonparametric method for detecting amolies in one-dimensional eigenspace. It treats the outliers for each of the selected columns individually by means of interquartile range (![eqn](https://latex.codecogs.com/svg.image?IQR)).
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+An observation is flagged an anomaly or outlier if it lies outside the range of the first and third quartile ![equation](https://latex.codecogs.com/svg.image?(Q_{1},&space;Q_{3})). So, the outlier ![eqn](https://latex.codecogs.com/svg.image?x_i) is:
 
-Jekyll also offers powerful support for code snippets:
+<p align="center"> <img src="https://latex.codecogs.com/svg.image?x_{i}&space;>Q_{3}&plus;k(IQR)\vee&space;x_{i}<Q_{1}-k(IQR)&space;"></p>
+where ![eqn](https://latex.codecogs.com/svg.image?IQR=Q_{3}-Q{1}), and ![eqn](https://latex.codecogs.com/svg.image?k>=0). Setting ![eqn](https://latex.codecogs.com/svg.image?k=1.5) the smallest value in R corresponds, to the lower end of a boxplot's whisker and largest value to its upper end. This technique is implemented using the *Numeric Outliers* nodes built into *KNIME Analytics Platform*.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+If an observation is flagged an outlier, one can either replace it by some other value or remove/retain the corresponding row.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Missing values contained in the data will be ignored, i.e., they will neither be used for the outlier computation nor will they be flagged as an outlier.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+---
+
+## Z-Score
+
+---
+
+## DBSCAN
+
+---
+
+## Isolation Forest
