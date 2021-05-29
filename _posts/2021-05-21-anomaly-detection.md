@@ -28,6 +28,11 @@ Missing values contained in the data will be ignored, i.e., they will neither be
 
 ## Z-Score
 
+\\[ \frac{1}{n^2} \\]
+
+{% raw %}
+[$ x_1+x_2 $]
+{%endraw%}
 ---
 
 ## DBSCAN
