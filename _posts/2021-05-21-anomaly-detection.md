@@ -7,7 +7,7 @@ categories: anomaly_detection
 ---
 
 ## 1 min abstract:
-Anomaly, including errors, outliers, and noise can cause some troubles in the application of machine learning algorithms and statistical techniques. This article will introduce Four common anomaly detection methods, which are *Numeric Outlier*, *Z-Score*, *DBSCAN*, and *Isolation Forest*.
+Anomaly, including errors, outliers, and noise can cause some troubles in the application of machine learning algorithms and statistical techniques. This article will introduce some common anomaly detection methods, which are **Standard Deviation**, **Numeric Outlier**, **Z-Score**, **DBSCAN**, **Isolation Forest**, and **Robust Random Cut Forest**.
 
 ---
 
@@ -21,7 +21,6 @@ Therefore, if you have any data point that is more than 3 times the standard dev
 import numpy as np
 import matplotlib.pyplot as plt
 seed(1)
-
 
 # multiply and add by random numbers to get some real values
 data = np.random.randn(50000)  * 20 + 20
