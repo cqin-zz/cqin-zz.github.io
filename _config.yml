@@ -8,8 +8,8 @@ locale: "en-US"
 
 author:
   name: Chuan Qin
-  about: "If you can't explain it simply, you don't understand it well enough." -- Albert Einstein 
-  location: "Washington State University"
+  about: <meta charset="utf-8">&quot;If you can't explain it simply, you don't understand it well enough.&quot; -- Albert Einstein </meta>
+  location: Washington State University
   portfolio_image: "portfolio.png"
   googlescholar: https://scholar.google.com/citations?user=A4QD9RgAAAAJ&hl=en
 
