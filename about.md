@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 ## About Me
-Hi There! <br>
-My name is Chuan Qin. I'm an Electrical and Computer Engineering Ph.D. student at Washington State University. <br>
+Hi There! Thanks for visiting my blog. Hope you're having an awesome day! <br>
+My name is Chuan Qin, and I'm an Electrical and Computer Engineering Ph.D. student at Washington State University. <br>
 My research interests include data-driven computational analysis for power system operation and control algorithm, and phasor measurement-based power protection analysis.
 
 
