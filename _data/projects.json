@@ -1,10 +1,11 @@
 [
 	{
-		"slug": "cool-project",
-		"name": "Cool project 1",
-		"image": "placeholder.jpg",
-		"url": "https://www.google.com",
-		"date": "Jun 2021",
-		"tags": ["Anomaly detection","Python"]
+		"slug": "Reliability",
+		"name": "US-Canada Resource Adequacy and Reliability Analysis",
+		"image": "prj/doe-reliability.jpg",
+		"url": "https://www.energy.gov/topics/reliability",
+		"date": "July 2025",
+		"tags": ["Resource Adequacy","Transmission Planning","Reliability"],
+		"description": "This project focuses on the development of a data-driven computational analysis framework for power system operation and control algorithm, with a specific emphasis on anomaly detection in power systems. The goal is to enhance the reliability and efficiency of power system operations through advanced data analytics techniques."
 	}
 ]

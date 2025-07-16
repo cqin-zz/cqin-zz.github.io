@@ -44,29 +44,43 @@
 }
 
 #TB_window {
-	position: fixed;
-	background: #ffffff;
-	z-index: 102;
-	color:#000000;
-	display:none;
-	border: 4px solid #525252;
-	text-align:left;
-	top:50%;
-	left:50%;
+    position: fixed;
+    background: #ffffff;
+    z-index: 102;
+    color: #000000;
+    display: none;
+    border: 4px solid #525252;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90vw;
+    max-height: 90vh;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    box-sizing: border-box;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-* html #TB_window { /* ie6 hack */
-position: absolute;
-margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
-}
+* html #TB_window,
 
 #TB_window img#TB_Image {
-	display:block;
-	margin: 15px 0 0 15px;
-	border-right: 1px solid #ccc;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #666;
-	border-left: 1px solid #666;
+    display: block;
+    margin: 15px;
+    border: 1px solid #666;
+    max-width: calc(90vw - 30px);
+    max-height: calc(90vh - 30px);
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+#TB_ImageOff {
+    max-width: 100%;
+    height: auto;
 }
 
 #TB_caption{
@@ -115,20 +129,22 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 	padding:5px 0px 5px 0px;
 }
 
-#TB_load{
-	position: fixed;
-	display:none;
-	height:13px;
-	width:208px;
-	z-index:103;
-	top: 50%;
-	left: 50%;
-	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+#TB_load {
+    position: fixed;
+    display: none;
+    z-index: 103;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    margin: 0;
 }
 
-* html #TB_load { /* ie6 hack */
-position: absolute;
-margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+* html #TB_load {
+    position: fixed;
+    margin: 0;
 }
 
 #TB_HideSelect{
@@ -156,4 +172,17 @@ margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = d
 	margin-bottom:-1px;
 	margin-top:1px;
 	_margin-bottom:1px;
+}
+
+@media screen and (max-width: 768px) {
+    #TB_window {
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+    
+    #TB_window img#TB_Image {
+        margin: 10px;
+        max-width: calc(95vw - 20px);
+        max-height: calc(95vh - 20px);
+    }
 }
