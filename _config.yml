@@ -1,15 +1,15 @@
 # Author's infomation
 title: Chuan's Blog
 description: My personal stack problems and solutions
-github: https://github.com/chuanqin1230
+github: https://github.com/cqin-zz
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "chuanqin1230.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "cqin-zz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 locale: "en-US"
 
 author:
   name: Chuan Qin
   about: <meta charset="utf-8">&quot;If you can't explain it simply, you don't understand it well enough.&quot; -- Albert Einstein </meta>
-  location: Washington State University
+  location: Richland, WA
   portfolio_image: "portfolio.png"
   googlescholar: https://scholar.google.com/citations?user=A4QD9RgAAAAJ&hl=en
 

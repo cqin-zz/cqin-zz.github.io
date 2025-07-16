@@ -26,9 +26,13 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
+# gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "webrick", "~> 1.7"
 gem "jekyll-paginate"
 gem "jekyll-gist"
+gem "base64", "~> 0.3.0"
+
+gem "bigdecimal", "~> 3.2"
+
+gem "csv", "~> 3.3"
