@@ -1,11 +1,83 @@
 [
 	{
+		"slug": "NTP",
+		"name": "National Transmission Planning Study",
+		"image": "prj/ntp.jpg",
+		"url": "https://www.energy.gov/gdo/national-transmission-planning-study",
+		"date": "July 2025 - Present",
+		"tags": ["Resource Adequacy","Transmission Planning","Reliability","Capacity Expansion","DOE","PNNL"],
+		"description": "Improving and expanding electric transmission infrastructure in the U.S. is critical to ensuring consumers across the country have access to reliable, affordable power when and where they need it and to enable us to integrate new, clean sources of energy generation into the grid. To understand the transformation needed to ensure the U.S. electric transmission system continues to reliably serve the nation’s electricity customers as the power sector evolves and transitions to cleaner resources, the U.S. Department of Energy's Grid Deployment Office led the multiyear National Transmission Planning Study (NTP Study) in partnership with the National Renewable Energy Laboratory (NREL) and the Pacific Northwest National Laboratory (PNNL)."
+	},
+	{
+		"slug": "NAERM",
+		"name": "North American Energy Resilience Model to Strengthen Power System Planning",
+		"image": "prj/naerm.jpg",
+		"url": "https://www.energy.gov/oe/north-american-energy-resilience-model-strengthen-power-system-planning",
+		"date": "Aug 2022 - Present",
+		"tags": ["Resiliency","Transmission Planning","Cyber Security", "Software Development", "DOE","PNNL"],
+		"description": "To meet the nation’s electricity resiliency needs, North American Energy Resilience Model (NAERM) modeling and analysis system teams perform a comprehensive modeling system for U.S. energy and communications infrastructure for use by energy system planners, operators, and government stakeholders. NAERM supports electricity reliability by modeling the associated resiliency of numerous U.S. energy sources."
+	},
+	{
 		"slug": "Reliability",
-		"name": "US-Canada Resource Adequacy and Reliability Analysis",
+		"name": "EO US-Canada Resource Adequacy and Reliability Analysis",
 		"image": "prj/doe-reliability.jpg",
 		"url": "https://www.energy.gov/topics/reliability",
-		"date": "July 2025",
-		"tags": ["Resource Adequacy","Transmission Planning","Reliability"],
+		"date": "Apr 2025 - Jun 2025",
+		"tags": ["Resource Adequacy","Transmission Planning","Capacity Expansion","Reliability","DOE","PNNL"],
 		"description": "This project focuses on the development of a data-driven computational analysis framework for power system operation and control algorithm, with a specific emphasis on anomaly detection in power systems. The goal is to enhance the reliability and efficiency of power system operations through advanced data analytics techniques."
+	},
+	{
+		"slug": "WOW-TS",
+		"name": "West Coast Offshore Wind Transmission Planning",
+		"image": "prj/wow-ts.jpg",
+		"url": "https://www.pnnl.gov/projects/west-coast-offshore-wind-transmission-study",
+		"date": "Apr 2023 - Aug 2024",
+		"tags": ["Offshore Wind Integration","Transmission Planning","Capacity Expansion","Reliability","DOE","PNNL"],
+		"description": "Pacific Northwest National Laboratory and National Renewable Energy Laboratory conducted a two-year study to investigate the potential of floating offshore wind (OSW) to help meet this need, while also enhancing the resilience of the nation’s western grid. The study is funded by the Department of Energy’s (DOE) Grid Deployment Office and co-managed by DOE's Wind Energy Technologies Office. The study analyzes the costs and benefits of adding floating OSW turbines along the United States’ Pacific coast. It shows that floating OSW could bring 33 GW of energy to the western United States by 2050 and bolster the resilience of coastal communities."
+	},
+	{
+		"slug": "5G",
+		"name": "5G Fabricated Resource and Asset Management for Energy Infrastructure",
+		"image": "prj/5g.jpg",
+		"url": "https://www.pnnl.gov/projects/5g-energy-frame",
+		"date": "Aug 2022 - Jan 2024",
+		"tags": ["5G","Telecommunication","Infrastructure","DOE","PNNL"],
+		"description": "The ultimate goal of 5G Energy FRAME (Fabricated Resource and Asset Management Encompassment) is to break data silos across the energy sector. Embracing 5G technologies will bridge the gap between energy stakeholders and computing/ML resources to enhance energy infrastructure asset management through cohesive data integration and intelligent analytics."
+	},
+	{
+		"slug": "AOSW",
+		"name": "Atlantic Offshore Wind Transmission Study",
+		"image": "prj/aosw.jpg",
+		"url": "https://docs.nrel.gov/docs/fy24osti/89304.pdf",
+		"date": "Aug 2022 - Jan 2024",
+		"tags": ["Offshore Wind Integration","Capacity Expansion","Transmission Planning","Reliability","DOE","PNNL"],
+		"description": "The Atlantic Offshore Wind Transmission Study identifies and compares different transmission strategies for enabling offshore wind energy deployment along the U.S. Atlantic Coast, from Maine through South Carolina. Ensuring adequate equitable, affordable, and timely transmission access for offshore wind is critical to achieving state clean energy goals as well as the national goal of 30 GW of offshore wind energy by 2030, which would enable the deployment of 110 GW or more by 2050."
+	},
+	{
+		"slug": "UI-ASSIST",
+		"name": "UI-ASSIST",
+		"image": "prj/ui.jpg",
+		"url": "https://hub.wsu.edu/ui-assist/",
+		"date": "May 2021 - Aug 2022",
+		"tags": ["Distribution System","DOE","WSU"],
+		"description": "The U.S.-India collAborative for smart diStribution System wIth STorage (UI-ASSIST) was a six-year collaboration between several partners in the United States and India. Led by Washington State University in the US and IIT Kanpur in India. UI-ASSIST aimed to increase accessibility to renewable energy in both countries."
+	},
+	{
+		"slug": "AGGREGATE",
+		"name": "AGGREGATE: dAta-driven modelinG preservinG contRollable dEr for outaGe mAnagemenT and rEsiliency",
+		"image": "prj/agg.jpg",
+		"url": "https://www.energy.gov/oe/articles/oe-announces-investment-new-research-improve-grid-reliability-and-resilience-through",
+		"date": "Feb 2019 - May 2021",
+		"tags": ["Distribution System","DOE","WSU"],
+		"description": "Washington State University and Virginia Tech collaborated with Massachusetts Institute of Technology, Argonne National Laboratory, Seattle City Light, GE Grid Solutions, Commonwealth Edison, developed innovative data-driven framework for loads and DERs using dominant parameter methods, while including variability. A decentralized approach to a real-time distribution model was designed using distributed computing and edge-analytics to improve the observability of the distribution system. Composite load models for a combination of static, dynamic (induction motors), and aggregated DERs were integrated with a reduced order quasi-static transmission-distribution model while preserving controllable DERs."
+	},
+	{
+		"slug": "T57HI",
+		"name": "PSERC T-57HI",
+		"image": "prj/pserc.jpg",
+		"url": "https://smartgridcenter.tamu.edu/2015/04/07/newly-approved-3-year-project/",
+		"date": "Jan 2018 - Jan 2019",
+		"tags": ["IEC 61850","PSERC","WSU"],
+		"description": "T-57HI entitled “Life-Cycle Management of Mission-Critical Systems through Certification, Commissioning, In-Service Maintenance, Remote Testing, and Risk Assessment” was a 3 year $1.2 million. The project focuses on new methodology and tool development for life-cycle management of mission critical complex systems, especially certification, commissioning, in-service maintenance, and risk assessment for the deployment of synchrophasor based Wide Area Monitoring, Protection, and Control (WAMPAC) and SPS. This project delivered tools for the industry to use at the host universities."
 	}
 ]

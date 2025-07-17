@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Accomplished Projects
+title: Current/Accomplished Projects
 permalink: /projects/
 ---
 
