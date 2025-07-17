@@ -6,13 +6,14 @@ permalink: /about/
 
 **Hey there, and welcome!**👋 I'm Chuan Qin -- glad you're here! <br>
 
-I'm currently a power system research engineer at [Pacific Northwest National Laborartory](pnnl.gov) (PNNL), with over 7 years of experience in power system modeling and planning.<br>
+I'm currently a power system research engineer at [Pacific Northwest National Laborartory](https://www.pnnl.gov) (PNNL), with over 7 years of experience in power system modeling and planning.<br>
 
-I've worked on studies ranging from microgrids to large-scale, nationwide transmission planning. Before joining PNNL, I was a research assistant at [Washington State University](wsu.edu) and took care of website, servers, and YouTube at the [SGDRIL](https://www.youtube.com/channel/UCJvYOVqPi-vM7nmR4qSxpmQ/videos) lab during my PhD journey (since Prof. Anurag Srivastava moved to WVU in 2022).<br>
+I've worked on studies ranging from microgrids to large-scale, nationwide transmission planning. Before joining PNNL, I was a research assistant at [Washington State University](https://www.wsu.edu) and took care of website, servers, and YouTube at the [Smart Grid Demonstration & Research Investigation Lab](https://www.youtube.com/channel/UCJvYOVqPi-vM7nmR4qSxpmQ/videos) (SGDRIL) during my PhD journey (since Prof. [Anurag Srivastava](https://directory.statler.wvu.edu/faculty-staff-directory/anurag-srivastava) moved to WVU in 2022).<br>
 
 I’m all about tackling real-world challenges, learning something new every day, and making a difference through my work. This site is a place where I share a bit about what I do, projects I’ve worked on, and things I’m passionate about. Feel free to look around—and don’t hesitate to reach out if you want to connect! 🤝
 
  <hr />
+ 
 # About Me
 
 ## Education
