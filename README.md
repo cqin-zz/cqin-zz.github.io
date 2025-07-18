@@ -1,4 +1,5 @@
 # GitHub Personal Page
+![pages-build-deployment](https://github.com/cqin-zz/cqin-zz.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 A minimalist personal website built with Jekyll and GitHub Pages.
 
@@ -18,12 +19,12 @@ A minimalist personal website built with Jekyll and GitHub Pages.
 
 ## Local Development
 
-### Requirements
-
-- [Jekyll](https://jekyllrb.com/docs/installation/)
-- [Ruby (version 2.5.0 or higher)](https://www.ruby-lang.org/en/downloads/)
-- [RubyGems](https://rubygems.org/pages/download)
-- [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/)
+> [!NOTE]
+> Make sure following requirements are installed and satisfied in your local environment.
+> - [Jekyll](https://jekyllrb.com/docs/installation/)
+> - [Ruby (version 2.5.0 or higher)](https://www.ruby-lang.org/en/downloads/)
+> - [RubyGems](https://rubygems.org/pages/download)
+> - [GCC](https://gcc.gnu.org/install/) and [Make](https://www.gnu.org/software/make/)
 
 ### Quick Start
 
@@ -73,9 +74,3 @@ The site is automatically deployed to GitHub Pages when changes are pushed to th
 ## License
 
 This project is open source that is available for individual use.
-
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/cqin-zz/cqin-zz.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-</div>
