@@ -46,8 +46,8 @@ layout: compress
             {% endfor %}
           </ul>
 		  <!--  Add Live2D module -->
-		  <div>
-		    <canvas id="live2dcanvas" width="125" height="250"></canvas>
+		  <div id="live2d-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 999; pointer-events: none;">
+		    <canvas id="live2dcanvas" width="125" height="250" style="pointer-events: auto;"></canvas>
 	      </div>
 	      <script src="/assets/js/device.min.js"></script>
 	      <script src="/assets/js/live2dscript.js"></script> 
