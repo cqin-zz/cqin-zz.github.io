@@ -1,12 +1,11 @@
 ---
 useMath: true
 layout: post
-title:  "Energy News Digest"
+title:  "⚡ Energy News Digest — February 25, 2026"
 date:   2026-02-25 
-categories: news
+categories: energy_news
 ---
 
-# ⚡ Energy News Digest — February 25, 2026
 *Covering the hottest stories from the past 24 hours across global energy news, markets, and policy.*
 
 ---

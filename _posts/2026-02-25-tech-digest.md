@@ -1,12 +1,11 @@
 ---
 useMath: true
 layout: post
-title:  "Tech News Digest"
+title:  "🔥 Tech News Digest — February 25, 2026"
 date:   2026-02-25 
-categories: news
+categories: tech_news
 ---
 
-# 🔥 Tech News Digest — February 25, 2026
 *Covering the hottest stories from the past 24 hours across global tech news and social platforms.*
 
 ---
