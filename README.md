@@ -12,7 +12,7 @@ A minimalist personal website built with Jekyll and GitHub Pages.
 - Clean, responsive design
 - About page
 - Projects showcase
-- Notes/Blog section
+- Blog section
 - Image gallery with Thickbox support
 - Pagination for posts
 - Mobile-friendly layout
@@ -50,13 +50,13 @@ bundle exec jekyll serve
 
 ```
 .
-├── _includes/       # Header, footer, and other reusable components
-├── _layouts/        # Page templates
+├── _includes/      # Header, footer, and other reusable components
+├── _layouts/       # Page templates
 ├── _posts/         # Blog posts
 ├── assets/         # CSS, JavaScript, images
 ├── about.md        # About page
 ├── projects.md     # Projects page
-├── notes.md        # Notes/Blog page
+├── blog.md         # Blog page
 └── index.html      # Homepage
 ```
 

@@ -1,7 +1,7 @@
 ---
 useMath: true
 layout: post
-title:  "🔥 Tech News Digest — February 25, 2026"
+title:  "🔥 2/25/2026 Tech News Digest"
 date:   2026-02-25 
 categories: tech_news
 ---

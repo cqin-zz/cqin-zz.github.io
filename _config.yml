@@ -24,9 +24,9 @@ collections:
   project:
     output: true
     permalink: /project/:path/
-  notes:
+  blog:
     output: true
-    permalink: /notes/:path/
+    permalink: /blog/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -75,8 +75,8 @@ urls:
       url: /publications/
     - text: My Projects
       url: /projects/
-    - text: My Notes
-      url: /notes/
+    - text: Blog
+      url: /blog/
     
 #Plugins
 plugins:
