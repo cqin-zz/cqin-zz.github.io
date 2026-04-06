@@ -7,7 +7,7 @@ layout: default
   <hr />
 
   <ol class="about">
-    {% capture about_content %}{% include_relative about.md %}{% endcapture %}
+    {% capture about_content %}{% include about.md %}{% endcapture %}
     {% assign content_lines = about_content | split: '---' %}
     {{ content_lines[2] | markdownify }}
   </ol>
