@@ -230,9 +230,7 @@ For each scenario:
 
 Computes per-scenario likelihood scores as the joint log-density:
 
-```
-log π_s = log f_L(load_s) + log f_W(wind_cf_s) + log f_S(solar_cf_s)
-```
+$$log π_s = log f_L(load_s) + log f_W(wind_cf_s) + log f_S(solar_cf_s)$$
 
 Normalizes to probability weights via log-sum-exp for numerical stability. Also computes a composite severity index and classifies scenarios into four quadrants:
 
@@ -249,8 +247,8 @@ Computes both conventional equal-weight metrics and proposed probability-weighte
 
 | Metric | Conventional Formula | Proposed Formula |
 |---|---|---|
-| LOLE | $\frac{1}{S}\sum_s \mathbf{1}[C_s < L_s]$ | $\sum_s \pi_s \cdot \mathbf{1}[C_s < L_s]$ |
-| EUE | $\frac{1}{S}\sum_s \max(0, L_s - C_s)$ | $\sum_s \pi_s \cdot \max(0, L_s - C_s)$ |
+| LOLE | $$\frac{1}{S}\sum_s \mathbf{1}[C_s < L_s]$$ | $$\sum_s \pi_s \cdot \mathbf{1}[C_s < L_s]$$ |
+| EUE | $$\frac{1}{S}\sum_s \max(0, L_s - C_s)$$ | $$\sum_s \pi_s \cdot \max(0, L_s - C_s)$$ |
 | LOLH | derived from LOLE × 8760 | probability-weighted equivalent |
 
 Bootstrap resampling (1,000 iterations) produces 95% confidence intervals on all metrics. ELCC is estimated via delta-LOLE method for a new resource.
@@ -286,14 +284,14 @@ The ELCC of a new 500 MW wind resource in the Mid-Atlantic system was computed a
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║              PROBABILISTIC RELIABILITY PLANNING FRAMEWORK           ║
+║              PROBABILISTIC RELIABILITY PLANNING FRAMEWORK            ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
-┌─────────────────┐   ┌──────────────────┐   ┌──────────────────────┐
-│  System topology │   │  Load & weather  │   │  Renewable profiles  │
-│  Generators,    │   │  Historical load, │   │  Wind, solar         │
-│  capacities, FOR│   │  temperature data │   │  time-series         │
-└────────┬────────┘   └────────┬─────────┘   └──────────┬───────────┘
+┌──────────────────┐   ┌───────────────────┐   ┌──────────────────────┐
+│  System topology │   │  Load & weather   │   │  Renewable profiles  │
+│  Generators,     │   │  Historical load, │   │  Wind, solar         │
+│  capacities, FOR │   │  temperature data │   │  time-series         │
+└────────┬─────────┘   └───────┬───────────┘   └──────────┬───────────┘
          │                     │                          │
          └─────────────────────┼──────────────────────────┘
                                ▼
@@ -302,20 +300,20 @@ The ELCC of a new 500 MW wind resource in the Mid-Atlantic system was computed a
          │  Validate · normalise · build SystemData    │
          └─────────────────────┬───────────────────────┘
                                │
-         ╔═════════════════════▼═══════════════════════╗
-         ║           GAUSSIAN COPULA LAYER             ║
-         ║  ┌──────────────┐ ┌─────────────┐ ┌──────────────┐ ║
+         ╔═════════════════════▼═════════════════════════════╗
+         ║                  GAUSSIAN COPULA LAYER            ║
+         ║  ┌──────────────┐ ┌─────────────┐ ┌─────────────┐ ║
          ║  │ Load marginal│ │  Wind CF    │ │  Solar CF   │ ║
          ║  │ Truncated    │ │  Beta dist  │ │  Beta dist  │ ║
          ║  │ normal       │ │  α, β hist  │ │  α, β hist  │ ║
-         ║  └──────────────┘ └─────────────┘ └──────────────┘ ║
-         ╚═════════════════════╤═══════════════════════╝
+         ║  └──────────────┘ └─────────────┘ └─────────────┘ ║
+         ╚═════════════════════╤═════════════════════════════╝
                                │
-         ┌─────────────────────▼───────────────────────┐
-         │       MODULE 2 — SCENARIO GENERATOR         │
+         ┌─────────────────────▼────────────────────────┐
+         │       MODULE 2 — SCENARIO GENERATOR          │
          │  Cholesky decomp → correlated uniform draws  │
          │  → invert marginals → N scenarios            │
-         └─────────────────────┬───────────────────────┘
+         └─────────────────────┬────────────────────────┘
                                │
          ╔═════════════════════▼═══════════════════════╗
          ║           BAYESIAN FOR LAYER                ║
@@ -349,7 +347,7 @@ The ELCC of a new 500 MW wind resource in the Mid-Atlantic system was computed a
          │  Summary tables · 6-panel diagnostic plots  │
          └──────┬──────────────┬──────────────┬────────┘
                 │              │              │
-   ┌────────────▼──┐  ┌────────▼──────┐  ┌───▼─────────────┐
+   ┌────────────▼──┐  ┌────────▼──────┐  ┌────▼────────────┐
    │ Reliability   │  │ Scenario      │  │ Planning report │
    │ metrics       │  │ scores        │  │                 │
    │ LOLE, EUE,    │  │ Likelihood    │  │ Standard check  │
