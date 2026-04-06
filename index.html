@@ -11,8 +11,8 @@ layout: default
     {% assign content_lines = about_content | split: '---' %}
     {{ content_lines[2] | markdownify }}
   </ol>
-
-  <!-- Pagination links -->
+<!-- 
+  Pagination links
   {% if paginator.total_pages > 1 %}
     <ul class="pagination pagination-sm">
       {% if paginator.previous_page %}
@@ -34,12 +34,11 @@ layout: default
       {% endfor %}
 
       <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
-
       {% if paginator.next_page %}
         <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
       {% else %}
         <li class="disabled"><span>&raquo;</span></li>
       {% endif %}
     </ul>
-  {% endif %}
+  {% endif %} -->
 </div><!-- end #home -->
