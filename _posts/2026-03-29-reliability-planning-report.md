@@ -384,10 +384,10 @@ The risk decomposition shows that essentially all loss-of-load EUE originates in
 
 | Metric | Conventional | Proposed |
 |---|---|---|
-| LOLE | $\frac{1}{S}\sum_s \mathbf{1}[C_s < L_s]$ | $\sum_s \pi_s \cdot \mathbf{1}[C_s < L_s]$ |
-| EUE | $\frac{1}{S}\sum_s \max(0, L_s - C_s)$ | $\sum_s \pi_s \cdot \max(0, L_s - C_s)$ |
-| Scenario weight | $\pi_s = 1/S$ (implicit) | $\pi_s \propto f_L(l_s) \cdot f_W(w_s) \cdot f_S(r_s)$ |
-| FOR | $\lambda_i = \hat{\mu}_i$ (fixed) | $\lambda_i \sim \text{Beta}(\mu_i\kappa,\,(1-\mu_i)\kappa)$ |
+| LOLE | $$\frac{1}{S}\sum_s \mathbf{1}[C_s < L_s]$$ | $$\sum_s \pi_s \cdot \mathbf{1}[C_s < L_s]$$ |
+| EUE | $$\frac{1}{S}\sum_s \max(0, L_s - C_s)$$ | $$\sum_s \pi_s \cdot \max(0, L_s - C_s)$$ |
+| Scenario weight | $$\pi_s = 1/S$$ (implicit) | $$\pi_s \propto f_L(l_s) \cdot f_W(w_s) \cdot f_S(r_s)$$ |
+| FOR | $$\lambda_i = \hat{\mu}_i$$ (fixed) | $$\lambda_i \sim \text{Beta}(\mu_i\kappa,\,(1-\mu_i)\kappa)$$ |
 
 ### Implementation Notes
 
