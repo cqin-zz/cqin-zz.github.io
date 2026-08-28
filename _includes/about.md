@@ -6,13 +6,12 @@ permalink: /about/
 
 **Hey there!**👋 <br>
 
-I'm a Planning Engineer and Power System Research Team Lead at the [New York Independent System Operator](https://www.nyiso.com) (NYISO), where I tackle complex challenges in power system planning and innovation. Before joining NYISO, I spent over four years as a power system research engineer at [Pacific Northwest National Laborartory](https://www.pnnl.gov) (PNNL), honing my expertise in modeling, analysis, and planning for reliable and efficient power systems.<br>
+I'm a Transmission Planner and Power System Research Team Lead at the [New York Independent System Operator](https://www.nyiso.com) (NYISO), where I tackle complex challenges in power system planning and innovation. Before joining NYISO, I spent over four years as a power system research engineer at [Pacific Northwest National Laborartory](https://www.pnnl.gov) (PNNL), honing my expertise in modeling, analysis, and planning for reliable and efficient power systems.<br>
 
 During my PhD at [Washington State University](https://www.wsu.edu) (WSU), I explored projects ranging from microgrids - distribution systems - nationwide transmission systems, include topics in planning, operation, and control. gaining a broad perspective on power systems. I also served as a Research Assistant at [Smart Grid Demonstration & Research Investigation Lab](https://www.youtube.com/channel/UCJvYOVqPi-vM7nmR4qSxpmQ/videos) (SGDRIL), managing the website, servers, and experimental equipments (oscilloscopes, amplifiers, SEL relays, PMUs, Opal-RT, RTDS). I'm grateful to my advisors, [Prof. Anurag Srivastava](https://directory.statler.wvu.edu/faculty-staff-directory/anurag-srivastava) and [Prof. Anjan Bose](https://school.eecs.wsu.edu/directory/bose-biography), for their invaluable guidance throughout my research journey. <br>
 
 
-
-I’m all about tackling real-world challenges, learning something new every day, and making a difference through my work. This site is a place where I share a bit about what I do, projects I’ve worked on, and things I’m passionate about. Feel free to look around—and don’t hesitate to reach out if you want to connect! 🤝
+I’m all about tackling real-world challenges, learning something new every day, and making a difference through my work. This site is a place where I share a bit about what I do, projects I’ve worked on, and things I’m passionate about. Feel free to look around—and don’t hesitate to reach out if you'd like to connect! 
 
  <hr />
  
