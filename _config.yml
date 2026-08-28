@@ -57,14 +57,14 @@ social:
       link: "#"
     - icon: fa-linkedin
       link: "https://www.linkedin.com/in/chuan-qin-18b086158/"
-    - icon: fa-stack-exchange
-      link: "#"
+    # - icon: fa-stack-exchange
+    #   link: "#"
     - icon: fa-github
       link: "https://github.com/cqin-zz"
-    - icon: fa-google-scholar
-      link: "https://scholar.google.com/citations?user=A4QD9RgAAAAJ&hl=en"
-    - icon: fa-email
-      link: "mailto:chuan.qin@ieee.org"
+    # - icon: fa-google-scholar
+    #   link: "https://scholar.google.com/citations?user=A4QD9RgAAAAJ&hl=en"
+    # - icon: fa-email
+    #   link: "mailto:chuan.qin@ieee.org"
      
 share:
   twitter_username: github.io
@@ -72,7 +72,7 @@ share:
   
 urls:
     - text: My Publications
-      url: /publications/
+      url: https://scholar.google.com/citations?user=A4QD9RgAAAAJ&hl=en
     - text: My Projects
       url: /projects/
     - text: Blog
